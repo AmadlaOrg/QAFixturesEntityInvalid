@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "https://raw.githubusercontent.com/AmadlaOrg/QAFixturesEntityInvalid/master/schema.json",
+  "title": "HERY - QA - Fixtures - Entity - Invalid.",
+  "description": "Defines QA fixtures.",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "https://raw.githubusercontent.com/AmadlaOrg/hery/master/.schema/entity.schema.json"
+    }
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Any name."
+    }
+  },
+  "required": ["name"]
+}
