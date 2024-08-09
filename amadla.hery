@@ -2,6 +2,6 @@
 _entity: "github.com/AmadlaOrg/Entity$v1"
 description: QA fixtures entity that is invalid.
 NoneExistingProperty: Bad Content!
-self:
+_self:
   message: Hello World!
   BadProperty: Bad Property!
