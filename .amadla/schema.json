@@ -4,16 +4,13 @@
   "title": "HERY - QA - Fixtures - Entity - Invalid.",
   "description": "Defines QA fixtures.",
   "type": "object",
-  "allOf": [
-    {
-      "$ref": "https://raw.githubusercontent.com/AmadlaOrg/hery/master/.schema/entity.schema.json"
-    }
-  ],
   "properties": {
-    "name": {
+    "message": {
       "type": "string",
-      "description": "Any name."
+      "description": "For simple message."
     }
   },
-  "required": ["name"]
+  "required": [
+    "message"
+  ]
 }
