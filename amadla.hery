@@ -1,5 +1,5 @@
 ---
-_entity: "github.com/AmadlaOrg/Entity$v1"
+_entity: "github.com/AmadlaOrg/Entity@latest"
 description: QA fixtures entity that is invalid.
 NoneExistingProperty: Bad Content!
 _self:
