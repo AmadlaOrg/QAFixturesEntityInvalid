@@ -1,7 +1,9 @@
 ---
-_entity: "github.com/AmadlaOrg/Entity@latest"
-description: QA fixtures entity that is invalid.
-NoneExistingProperty: Bad Content!
-_self:
+_meta:
+  _entity: github.com/AmadlaOrg/Entity@latest
+  _body:
+    description: QA fixtures entity that is invalid.
+    NoneExistingProperty: Bad Content!
+_body:
   message: Hello World!
   BadProperty: Bad Property!
